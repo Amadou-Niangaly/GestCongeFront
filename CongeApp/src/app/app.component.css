@@ -1,0 +1,38 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 16.66667%; /* This corresponds to col-md-2 */
+    background-color: #fff;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensures the sidebar stays on top */
+}
+.sidebar a {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex; /* Utilisation de flexbox pour aligner les éléments */
+   /* text-align: center;  */
+    color: #000;
+   
+    align-items: center;
+    text-decoration: none; /* Enlever le soulignement */
+    font-size: 14px;
+    padding: 5px 0;
+}
+.sidebar a i {
+   
+    font-size: 20px; /* Taille uniforme des icônes */
+    margin-right: 10px; /* Espace entre l'icône et le texte */
+}
+.sidebar a:hover {
+    color: #048686; /* Optionnel : changement de couleur au survol */
+}
+/* Ensure the main content does not overlap the sidebar */
+.principal .col-md-10 {
+    margin-left: 16.66667%; /* Offset by the width of the sidebar */
+    padding: 20px; /* Add padding to ensure content isn't touching the edges */
+   margin-right: 50px;
+}
+

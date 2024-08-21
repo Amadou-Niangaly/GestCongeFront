@@ -1,0 +1,24 @@
+<div class="container-fluid principal">
+  <div class="row">
+    <div class="col-md-2 sidebar">
+      <div class="text-center mb-4">
+        <img src="assets/logo.png" alt="G-conge Logo" class="img-fluid">
+      </div>
+      <a  routerLink="/accueil"><i class="bi bi-house-door-fill"></i>Accueil</a>
+      <a  routerLink="/demande-conge"><i class="bi bi-plus"></i>Demande Congé</a>
+      <a  routerLink="/gest-conge"><i class="bi bi-building-fill-up"></i>Gerer congé</a>
+      <a routerLink="/demande-permission"><i class="bi bi-plus"></i>Demande Permission</a>
+      <a routerLink="/gest-permission"><i class="bi bi-building-fill-up"></i>Gerer Permission</a>
+      <a routerLink="/historique"><i class="bi bi-file-earmark-text-fill"></i>Historique</a>
+      <a routerLink="/gest-user"><i class="bi bi-person-fill-gear"></i>Gestion User</a>
+      <a routerLink="/imprimer"><i class="bi bi-printer-fill"></i>Impression</a>
+      <a href="#"><i class="bi bi-box-arrow-left"></i>Deconnexion</a>
+    </div>
+
+    <div class="col-md-10 mt-2">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+      

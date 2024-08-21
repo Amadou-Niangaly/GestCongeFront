@@ -1,0 +1,67 @@
+<div class="principal">
+    <div class="container">
+        <h2>Ajouter une demande de congé</h2>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <label for="userID">ID Utilisateur *</label>
+                    <input type="text" id="userID" class="form-control" placeholder="User ID">
+                </div>
+                <div class="col">
+                    <label for="typeConge">Type de congé *</label>
+                    <select id="typeConge" class="form-control">
+                        <option value="vacances">Vacances</option>
+                        <option value="maladie">Congé maladie</option>
+                        <option value="maternité">Congé maternité</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="dateDebut">Date de début *</label>
+                    <input type="date" id="dateDebut" class="form-control">
+                </div>
+                <div class="col">
+                    <label for="dateFin">Date de fin *</label>
+                    <input type="date" id="dateFin" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="motif">Motif *</label>
+                    <textarea id="motif" class="form-control" placeholder="Motif de la demande"></textarea>
+                </div>
+            </div>
+    
+            <h3>Permission de Module</h3>
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Rôle</th>
+                        <th>Lire</th>
+                        <th>Écrire</th>
+                        <th>Supprimer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <select class="form-control">
+                                <option value="superAdmin">Super Admin</option>
+                                <option value="admin">Admin</option>
+                                <option value="employee">Employé</option>
+                            </select>
+                        </td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                        <td><input type="checkbox"></td>
+                    </tr>
+                </tbody>
+            </table>
+    
+            <button type="submit" class="btn btn-primary">Ajouter la demande</button>
+        </form>
+    </div>
+    
+</div>
