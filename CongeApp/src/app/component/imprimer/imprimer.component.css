@@ -1,0 +1,24 @@
+.imprim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:#fff ;
+    width: 40%;
+    border-radius: 15px;
+}
+
+.imprim h3 {
+    margin-bottom: 10px; /* Espace entre le h3 et l'icône */
+}
+
+.imprim i {
+    font-size: 3rem; /* Taille de l'icône */
+    margin-bottom: 5pxpx; /* Espace entre l'icône et le bouton */
+}
+
+.imprim button {
+    margin-top: 10px;
+    background-color: #048686;
+    color: #fff;
+}

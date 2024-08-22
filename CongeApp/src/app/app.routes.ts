@@ -9,6 +9,8 @@ import { GestUserComponent } from './component/gest-user/gest-user.component';
 import { ImprimerComponent } from './component/imprimer/imprimer.component';
 import { SearchBarComponent } from './component/search-bar/search-bar.component';
 import { AjouterUserComponent } from './component/gest-user/ajouter-user/ajouter-user.component';
+import { ImprimerCongeComponent } from './component/imprimer/imprimer-conge/imprimer-conge.component';
+import { ImprimerPermissionComponent } from './component/imprimer/imprimer-permission/imprimer-permission.component';
 
 export const routes: Routes = [
     {path:"accueil",component:AccueilComponent},
@@ -20,5 +22,7 @@ export const routes: Routes = [
     {path:"gest-user",component:GestUserComponent},
     {path:"imprimer",component:ImprimerComponent},
     {path:"search",component:SearchBarComponent},
-    {path:"add-user",component:AjouterUserComponent}
+    {path:"add-user",component:AjouterUserComponent},
+    {path:"imprim-conge",component:ImprimerCongeComponent},
+    {path:"imprim-permission",component:ImprimerPermissionComponent}
 ];
