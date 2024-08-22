@@ -1,1 +1,40 @@
-<p>gest-user works!</p>
+<div class="search-bar mt-5">
+    <app-search-bar></app-search-bar>
+    <button class=" btn btn-add" routerLink="/add-user" >Add user +</button>
+</div>
+<div class="container mt-5">
+    <h3>Liste des Utilisateurs</h3>
+    <table class="table">
+        <thead>
+            <tr class="table-success">
+                <th scope="row">ID</th>
+                <th scope="row">nom</th>
+                <th scope="row">prenom</th>
+                <th scope="row">Email</th>
+                <th scope="row">Tel</th>
+                <th scope="row">Departement</th>
+                <th scope="row">role</th> 
+                <th scope="row">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="col">1</td>
+                <td class="col">Sidibe</td>
+                <td class="col">Moussa</td>
+                <td class="col">mogmail.com</td>
+                <td class="col">79776362</td>
+                <td class="col">Finance</td>
+                <td class="col">Personnel</td>
+               <td><button class="btn btn-outline-success me-2"><i class="bi bi-pencil"></i></button>
+               <button class="btn btn-outline-danger"><i class="bi bi-trash3"></i></button></td> 
+            </tr>
+            
+        </tbody>
+        <!-- <tfoot></tfoot> -->
+      </table>
+</div>
+    
+
+
+
