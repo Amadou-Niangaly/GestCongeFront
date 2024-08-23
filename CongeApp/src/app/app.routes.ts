@@ -13,6 +13,7 @@ import { ImprimerCongeComponent } from './component/imprimer/imprimer-conge/impr
 import { ImprimerPermissionComponent } from './component/imprimer/imprimer-permission/imprimer-permission.component';
 import { PageImpressionCongeComponent } from './component/imprimer/imprimer-conge/page-impression-conge/page-impression-conge.component';
 import { PageImpressionPermissionComponent } from './component/imprimer/imprimer-permission/page-impression-permission/page-impression-permission.component';
+import { ConnexionComponent } from './component/connexion/connexion.component';
 
 export const routes: Routes = [
     {path:"accueil",component:AccueilComponent},
@@ -28,5 +29,6 @@ export const routes: Routes = [
     {path:"imprim-conge",component:ImprimerCongeComponent},
     {path:"imprim-permission",component:ImprimerPermissionComponent},
     {path:"page-imprim-conge",component:PageImpressionCongeComponent},
-    {path:"page-imprim-permission",component:PageImpressionPermissionComponent}
+    {path:"page-imprim-permission",component:PageImpressionPermissionComponent},
+    {path:"connexion",component:ConnexionComponent}
 ];
